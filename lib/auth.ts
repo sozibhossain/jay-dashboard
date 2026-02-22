@@ -1,7 +1,7 @@
-import type { NextAuthOptions } from "next-auth"
+import type { NextAuthConfig } from "next-auth"
 import CredentialsProvider from "next-auth/providers/credentials"
 
-export const authOptions: NextAuthOptions = {
+export const authConfig: NextAuthConfig = {
   providers: [
     CredentialsProvider({
       name: "credentials",
